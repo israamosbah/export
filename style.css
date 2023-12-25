@@ -1,0 +1,82 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+  *{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body{
+background-color: rgb(184, 227, 240);
+height: 100vh;
+}
+.contain{
+    width: 85%;
+   
+    
+}
+
+.link li{
+   list-style: none;
+   float: right;
+   padding: 0px 30px;
+
+}
+.img{
+    width: 70px;
+    float: left;
+   
+}
+.img img {
+    width: 100%;
+    
+}
+.clr{
+    clear: both;
+
+}
+h1{
+    
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+h1{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+h1 a {
+    border-bottom: 2px solid transparent;
+}
+
+
+h2{
+
+    color: black;font-size: 30px;
+}
+label{
+    color: black;font-size: 30px;
+}
+button{ color:black;font-size: 30px;border-bottom: 30px;
+
+}
+.container{
+    width: 85%;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+
+}
+form > div{
+    width: 60%
+
+}
+form{
+    text-align: center;
+}
